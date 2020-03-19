@@ -64,3 +64,78 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 15px 180px 15px 180px;
+	text-align: center;
+}
+.navigation {
+	background-color: blue;
+	position: fixed;
+	align-content: center;
+}
+
+.navigation .box {
+	display: inline-block;
+	position: relative;
+	border-style: solid;
+	border-color: black;
+	color: gray;
+	text-decoration: none;
+}
+
+.navigation a{
+	margin-right: 4.15em;
+}
+
+.slogan-container .box{
+	display: inline-block;
+	text-align: center;
+	margin: 30px;
+	padding: 20px;
+}
+
+.slogan-box h1 {
+	font-size: 65px;
+}
+
+.picture-box img{
+	width: 300px;
+	height: 300px;
+}
+
+.slogan-container .slogan-box a {
+	text-decoration: solid;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+}
+
+.paragraphs-container .box{
+	display: inline-block;
+	width: 414px;
+	margin: 15px 15px 15px 0px;
+	text-align: left;
+}
+
+.middle-img {
+	display: block;
+	margin: auto;
+}
+
+.three-box-container .box{
+	position: relative;
+	display: inline-block;
+	width: 283px;
+	margin: 15px 15px 15px 0px;
+	text-align: left;
+}
+
+.address-container{
+	display: block;
+	text-align: left;
+	margin: 15px 15px 15px 0px;
+}
